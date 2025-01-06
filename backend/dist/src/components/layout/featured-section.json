@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_layout_featured_sections",
+    "info": {
+        "displayName": "Featured Section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "feature": {
+            "type": "component",
+            "repeatable": true,
+            "component": "components.feature"
+        }
+    }
+}
